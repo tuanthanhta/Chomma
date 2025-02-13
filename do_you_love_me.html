@@ -10,42 +10,49 @@
       rel="stylesheet" />
     <link rel="stylesheet" href="do_you_love_me.css" />
     <title>Do you love me?</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
   </head>
   <body>
+    
+    <!-- Câu hỏi 1: Mai là ngày gì? -->
+    <div id="question1" class="question-container container">
+      <h2 class="question">Bống biết mai là ngày gì không?</h2>
+      <div class="button-container">
+        <button class="btn js-answer-btn" data-answer="hongbt">Hong biết</button>
+        <button class="btn js-answer-btn" data-answer="thu6">Thứ 6</button>
+        <button class="btn js-answer-btn" data-answer="alo">Alo?</button>
+      </div>
+    </div>
 
-
-    <div class="question-container container">
+    <!-- Câu hỏi 2: Cho Tí chơm má nha? (Ẩn lúc đầu) -->
+    <div id="question2" class="question-container container" style="display: none;">
       <div
         class="tenor-gif-embed"
         data-postid="25789758"
         data-share-method="host"
         data-width="100%">
         <a href="https://tenor.com/view/tkthao219-bubududu-gif-25789758"
-          >Tkthao219 Bubududu Sticker</a
-        >from
-        <a href="https://tenor.com/search/tkthao219-stickers"
-          >Tkthao219 Stickers</a
-        >
+          >Tkthao219 Bubududu Sticker</a>
+        from
+        <a href="https://tenor.com/search/tkthao219-stickers">Tkthao219 Stickers</a>
       </div>
       <script
         type="text/javascript"
         async
         src="https://tenor.com/embed.js"></script>
-
-      <h2 class="question">Alo Bống Iu Valentine đi chơi với tí hong?</h2>
+      
+      <h2 class="question">Ok thế đi chơi với tí hong?</h2>
       <div class="button-container">
         <button class="yes-btn btn js-yes-btn">Ok</button>
-        <button class="no-btn btn js-no-btn">Hong cho</button>
+        <button class="no-btn btn js-no-btn">Hong</button>
       </div>
     </div>
-    <div class="result-container container">
+
+    <div class="result-container container" style="display: none;">
       <video class="gif-result" src="cute love gif.mp4" autoplay loop></video>
       <h2>Hehe iu Bống😍!</h2>
       <img class="extra-image" src="chom_ma.jpg" alt="Cute Image">
     </div>
     
-
     <div class="cssload-main">
       <div class="cssload-heart">
         <span class="cssload-heartL"></span>
@@ -54,6 +61,7 @@
       </div>
       <div class="cssload-shadow"></div>
     </div>
+    
     <script src="do_you_love_me.js"></script>
   </body>
 </html>
