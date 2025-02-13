@@ -431,3 +431,26 @@ body {
     border-color: rgb(228, 228, 228);
   }
 }
+
+@media screen and (max-width: 768px) {
+  body {
+    font-size: 16px;
+    padding: 10px;
+  }
+
+  .container {
+    width: 100%; /* Chiếm toàn bộ chiều rộng */
+    padding: 10px;
+  }
+
+  .button-container {
+    display: flex;
+    flex-direction: column; /* Các nút xếp chồng dọc */
+    align-items: center;
+  }
+
+  button {
+    width: 100%; /* Nút bấm rộng 100% */
+    padding: 15px;
+  }
+}
